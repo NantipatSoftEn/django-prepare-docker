@@ -1,0 +1,9 @@
+{
+    "name": "local-django",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "web",
+    "forwardPorts": [8000],
+    "extensions": ["ms-python.python"],
+    "workspaceFolder": "/code",
+    "shutdownAction": "stopCompose"
+}
